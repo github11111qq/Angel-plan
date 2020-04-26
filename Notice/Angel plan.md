@@ -16,21 +16,24 @@ Please use 1 or 3 eth to start the game.
 Welcome to Angel plan!!!
 
 This is the angel plan smart contract plan:
-1、 Contractual income
+
+1. Contractual income
+
 Bet 1-6eth to participate in the game; enjoy 1% of the contract income per day; each time you bet out, you can vote again and continue to enjoy the income. Dynamic and static enjoyment 3.1 times
 
-2、 Node revenue
+2. Node revenue
+
 Generation 1: 30%, generation 2: 20%, generation 3: 10%, generation 4-10: 5%, generation 11-21: 2%
 Conditions: 1 generation for 1 person, 14 for 14, and 21 for 15
 Node revenue is subject to burn system.
 
-3、 Excellence Award: 7%
+3. Excellence Award: 7%
 7% of each bet amount will enter the excellence award pool. The award pool will open once every 24 hours and count down for 24 hours. When the count down is over, the award will be opened. 15% of the award pool amount will be awarded to 10% of the champions and 5% of the third place players who recommend eth with the most accumulated amount in this period, as the shared Champion Award. The remaining 85% of the award pool amount will settle into the next round.
 
-4、 Insurance pool: 1%
+4. Insurance pool: 1%
 1% of each player's investment will enter the pool. The pool will count down for 72 hours. When the time counts down to 0, the pool will open and give back to the 21 players who put money last. The first to the bottom: 30%, the second to the bottom: 20%, the third to the bottom: 10%, the fourth to the 21st to ensure the investment benefits of the players.
 
-5、 Technical operation and maintenance
+5. Technical operation and maintenance
 3% of each bet goes into technical operation and maintenance.
 
 Ten highlights of angel plan contract plan：
