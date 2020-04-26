@@ -18,11 +18,9 @@ Welcome to Angel plan!!!
 This is the angel plan smart contract plan:
 
 1. Contractual income
-
 Bet 1-6eth to participate in the game; enjoy 1% of the contract income per day; each time you bet out, you can vote again and continue to enjoy the income. Dynamic and static enjoyment 3.1 times
 
 2. Node revenue
-
 Generation 1: 30%, generation 2: 20%, generation 3: 10%, generation 4-10: 5%, generation 11-21: 2%
 Conditions: 1 generation for 1 person, 14 for 14, and 21 for 15
 Node revenue is subject to burn system.
