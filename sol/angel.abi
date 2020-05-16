@@ -1,0 +1,1087 @@
+[
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "bubbleSort",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_affAddr",
+				"type": "address"
+			}
+		],
+		"name": "ethcomein",
+		"outputs": [],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "ethgetout",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_eth",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address payable",
+				"name": "_to",
+				"type": "address"
+			}
+		],
+		"name": "lbsystemsetting",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "RecReward",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "setGameStatus",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "res",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "fallback"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "activated_",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "betMaxId_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "bx",
+		"outputs": [
+			{
+				"internalType": "address payable",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "cto",
+		"outputs": [
+			{
+				"internalType": "address payable",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "drBestQue_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "drUserBet_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "excellencePot_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "excellenceRound_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "excellenceStartTime_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "excellenceTime_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "exHistory_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "championId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "champion",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "bronzeId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "bronze",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "gBet_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "gBetcc_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_pID",
+				"type": "uint256"
+			}
+		],
+		"name": "getAlg",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "_al",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_rid",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_weizhi",
+				"type": "uint256"
+			}
+		],
+		"name": "getExcellenceUser",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "_pID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_totalBet",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_baseAff",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_rid",
+				"type": "uint256"
+			}
+		],
+		"name": "getExHistory",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "_championId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_champion",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_firInviteEth",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_championAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_bronzeId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_bronze",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_secInviteEth",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_bronzeAddr",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getNullAddress",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "_addr",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "pure",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_addr",
+				"type": "address"
+			}
+		],
+		"name": "getPlayerlaByAddr",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_pID",
+				"type": "uint256"
+			}
+		],
+		"name": "getPlayerlaById",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "affid",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "addr",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "totalBet",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "level",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "withDrawEdGen",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "withDrawEdAff",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "affInviteAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "affTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "excellencepot",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getsystemMsg",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "_gbet",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_gcc",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_zypot",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_zytime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_bxTotalCoin",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_zyround",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_bxTime",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "gWithDraw_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "inPoolCoin",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "insuranceStartTime_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "insuranceTime_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_addr",
+				"type": "address"
+			}
+		],
+		"name": "justCReward",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "_reward",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "luckyId_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "maintenance",
+		"outputs": [
+			{
+				"internalType": "address payable",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "nextId_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "openInsurancer",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"name": "pIDInviteCode_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "pIDxAddr_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "playerPot_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "jiechupot",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "luckpot",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "excellencepot",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "plyr_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "pID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address payable",
+				"name": "addr",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "affId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "totalBet",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "curGen",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "curAff",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "inviteCode",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "lastBet",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "lastReleaseTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "createTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "baseGen",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "baseAff",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "affTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "invites",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "plyrReward_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "canWithDrawGen",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "canWithDrawAff",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "reward",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "totalGen",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "totalAff",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "deepAff",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint8",
+				"name": "level",
+				"type": "uint8"
+			},
+			{
+				"internalType": "uint256",
+				"name": "withDrawEdGen",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "withDrawEdAff",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "shifangcc",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "rrHistory_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "pid",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "addr",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "rrTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "eth",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint8",
+				"name": "rrtype",
+				"type": "uint8"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "rrId_",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "somethingmsg",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "_minbeteth",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_genReleTime",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
